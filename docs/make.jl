@@ -21,7 +21,7 @@ makedocs(;
 if CI
     deploydocs(
         # `repo` MUST be set correctly
-        repo = "github.com/PutYourGitHubNameHere/ScienceProjectTemplate.git",
+        repo = "github.com/Datseris/ScienceProjectTemplate.git",
         target = "build",
         push_preview = true,
         devbranch = "main",
