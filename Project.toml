@@ -1,7 +1,10 @@
 name = "ScienceProjectTemplate"
-[compat]
-julia = "1.7.0"
-DrWatson = "2.9.1"
+
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+
+[compat] # Specifies versions
+DrWatson = "2.9.1"    # Default: compatible with SemVer
+Documenter = "≥ 0.27" # 0.27 or upper, any
+julia = "1.7.0"

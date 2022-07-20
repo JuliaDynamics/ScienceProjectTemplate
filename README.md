@@ -30,11 +30,13 @@ using DrWatson
 which auto-activate the project and enable local path handling from DrWatson.
 
 
-
 Some documentation has been set up for this project. It can be viewed by
 running the file `docs/make.jl`, and then launching the generated file
 `docs/build/index.html`.
 Alternatively, the documentation may be already hosted online.
+If this is the case it should be at:
+
+https://JuliaDynamics.github.io/ScienceProjectTemplate/dev/
 
 ## Contributors
 - George Datseris
