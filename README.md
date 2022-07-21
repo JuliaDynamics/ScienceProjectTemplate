@@ -11,6 +11,8 @@ To (locally) reproduce this project, do the following:
 
 First commit
 
+Second commit
+
 0. Download this code base. Notice that raw data are typically not included in the
    git-history and may need to be downloaded independently.
 1. Open a Julia console and do:
