@@ -40,3 +40,4 @@ https://JuliaDynamics.github.io/ScienceProjectTemplate/dev/
 
 ## Contributors
 - George Datseris
+- Felix Schaumann
