@@ -1,6 +1,7 @@
 CI = get(ENV, "CI", nothing) == "true" || get(ENV, "GITHUB_TOKEN", nothing) !== nothing
-using DrWatson, Documenter
+using DrWatson
 @quickactivate "ScienceProjectTemplate"
+using Documenter
 
 # Here you may include files from the source directory
 include(srcdir("dummy_src_file.jl"))
@@ -20,7 +21,10 @@ makedocs(;
 @info "Deploying Documentation"
 if CI
     deploydocs(
-        # `repo` MUST be set correctly
+        # `repo` MUST be set correctly. Once your GitHub name is set
+        # the auto-generated documentation will be hosted at:
+        # https://JuliaDynamics.github.io/ScienceProjectTemplate/dev/
+        # (assuming you have enabled `gh-pages` deployment)
         repo = "github.com/JuliaDynamics/ScienceProjectTemplate.git",
         target = "build",
         push_preview = true,
